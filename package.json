@@ -19,5 +19,10 @@
   ],
   "author": "Mart Anthony Salazar | mart-anthony-stark",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5"
+  }
 }
