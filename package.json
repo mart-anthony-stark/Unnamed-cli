@@ -1,6 +1,6 @@
 {
   "name": "unnamed-cli",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -20,6 +20,7 @@
     "web framework"
   ],
   "author": "Mart Anthony Salazar | mart-anthony-stark",
+  "repository": {"url": "https://github.com/mart-anthony-stark/Unnamed-cli"},
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
