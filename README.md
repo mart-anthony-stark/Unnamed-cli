@@ -1,5 +1,7 @@
 # Unnamed cli
 
+A cli tool for [Unnamed-js](https://github.com/mart-anthony-stark/Unnamed.js)
+
 ## How to use
 
 ### Install it globally using npm or yarn
