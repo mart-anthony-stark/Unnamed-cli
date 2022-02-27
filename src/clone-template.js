@@ -6,8 +6,17 @@ const cloneRepo = async (template, projName) => {
     (t) => t.templateName === template
   ).repository;
 
-  const command = await exec(`npx degit ${templateRepo} ${projName}`);
-  console.log(command);
+  exec(`npx degit ${templateRepo} ${projName}`, (error, stdout, output) => {
+    if (error) {
+      throw error;
+      return;
+    }
+    if (output) {
+      console.log(`output: ${output}`);
+      return;
+    }
+    console.log(`stdout: ${stdout}`);
+  });
 };
 
 export default cloneRepo;
