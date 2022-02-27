@@ -20,7 +20,6 @@
   "author": "Mart Anthony Salazar | mart-anthony-stark",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.0.0",
     "colors": "^1.4.0",
     "inquirer": "^8.2.0"
   },
