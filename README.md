@@ -1,6 +1,6 @@
 # Unnamed cli
 
-A cli tool for [Unnamed-js](https://github.com/mart-anthony-stark/Unnamed.js)
+A command line tool for [Unnamed-js](https://github.com/mart-anthony-stark/Unnamed.js)
 
 ## How to use
 
