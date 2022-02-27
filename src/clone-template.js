@@ -1,5 +1,8 @@
 import { exec } from "child_process";
 import templates from "./templates.js";
+import colors from "colors";
+
+const log = console.log;
 
 const cloneRepo = async (template, projName) => {
   const templateRepo = templates.find(
@@ -12,10 +15,15 @@ const cloneRepo = async (template, projName) => {
       return;
     }
     if (output) {
-      console.log(`output: ${output}`);
+      log(`${output}`.green);
+      log();
+      log(`Successfully installed boilerplate`.green);
+      log(`cd ${projName}`.cyan);
+      log(`npm install`.cyan);
+      log(`npm start`.cyan);
       return;
     }
-    console.log(`stdout: ${stdout}`);
+    log(`stdout: ${stdout}`);
   });
 };
 
