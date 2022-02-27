@@ -1,0 +1,23 @@
+{
+  "name": "unnamed-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-unnamed": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "unnamed-js",
+    "template",
+    "nodejs",
+    "web framework"
+  ],
+  "author": "Mart Anthony Salazar | mart-anthony-stark",
+  "license": "ISC",
+  "dependencies": {}
+}
