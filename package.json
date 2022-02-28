@@ -20,7 +20,9 @@
     "web framework"
   ],
   "author": "Mart Anthony Salazar | mart-anthony-stark",
-  "repository": {"url": "https://github.com/mart-anthony-stark/Unnamed-cli"},
+  "repository": {
+    "url": "https://github.com/mart-anthony-stark/Unnamed-cli"
+  },
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
