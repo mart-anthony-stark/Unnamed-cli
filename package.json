@@ -6,8 +6,8 @@
   "type": "module",
   "bin": {
     "create-unnamed": "./index.js",
-    "unnamed-version": "./src/version.js",
-    "unnamed-v": "./src/version.js"
+    "unnamed-cli": "./src/version.js",
+    "unnamed-js": "./src/version.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
