@@ -1,10 +1,13 @@
 import { exec } from "child_process";
 import templates from "./templates.js";
 import colors from "colors";
+import Loader from "./loader.js";
 
 const log = console.log;
+const loader = new Loader();
 
 const cloneRepo = async (template, projName) => {
+  loader.startLoading();
   const templateRepo = templates.find(
     (t) => t.templateName === template
   ).repository;
@@ -12,8 +15,8 @@ const cloneRepo = async (template, projName) => {
   exec(`npx degit ${templateRepo} ${projName}`, (error, stdout, output) => {
     if (error) {
       throw error;
-      return;
     }
+    loader.stopLoading();
     if (output) {
       log(`${output}`.green);
       log();
@@ -21,9 +24,7 @@ const cloneRepo = async (template, projName) => {
       log(`cd ${projName}`.cyan);
       log(`npm install`.cyan);
       log(`npm start`.cyan);
-      return;
     }
-    log(`stdout: ${stdout}`);
   });
 };
 
