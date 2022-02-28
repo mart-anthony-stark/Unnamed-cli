@@ -21,9 +21,10 @@ const cloneRepo = async (template, projName) => {
       log(`${output}`.green);
       log();
       log(`Successfully installed boilerplate!`.green);
-      log(`cd ${projName}`.cyan);
-      log(`npm install`.cyan);
-      log(`npm start`.cyan);
+      log("\tTo get started:".blue);
+      log(`\t\tcd ${projName}`.cyan);
+      log(`\t\tnpm install`.cyan);
+      log(`\t\tnpm start`.cyan);
     }
   });
 };
