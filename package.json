@@ -1,13 +1,11 @@
 {
   "name": "unnamed-cli",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "cli.js",
   "type": "module",
   "bin": {
-    "create-unnamed": "./index.js",
-    "unnamed-cli": "./src/version.js",
-    "unnamed-js": "./src/version.js"
+    "unnamed": "./cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
