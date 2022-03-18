@@ -13,5 +13,5 @@ npm install -g unnamed-cli
 ### Initialize a project template
 
 ```console
-create-unnamed
+create new
 ```
